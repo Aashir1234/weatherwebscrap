@@ -7,7 +7,7 @@ weather_condition_check = re.compile(r'^[a-zA-Z0-9\s]+$')
 
 def get_weather(city):
     try:
-        api_key = 'd5f78285b26695165adf5d0bbcae82cc'
+        api_key = ''
         if not api_key_check.match(api_key):
             print('Invalid API key format.')
             return
